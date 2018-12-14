@@ -1,0 +1,213 @@
+/* ---详情页主体----- */
+.section{
+    background:#f5f5f5;
+    padding-bottom:40px;
+}
+/* ----主体头部(在购物车,详情页,登录,注册都有类似)--- */
+
+.section .upper{
+    font-size:12px;
+    padding: 20px 0;
+    line-height: 22px;
+    color:#666;
+}
+.section .upper a{
+    color:#666;
+    margin-left:15px;
+}
+.section .upper .left span{
+    padding: 0 10px;
+    display: inline-block;
+}
+.section .upper .right a{
+    display: inline-block;
+    width: 86px;
+    height: 18px;
+    border: 2px solid #979795;
+    border-radius: 22px;
+    line-height: 18px;
+    text-align: center;
+    margin:0 10px;
+}
+.section .upper .right a:hover{
+    color:#d93732;
+    border-color:#d93732;
+}
+/* ---详情页主体中心内容-- */
+.section .content{
+    background:#fff;
+    overflow:hidden;
+}
+.section .content .wrapper{
+    margin-top:60px;
+    padding-bottom: 60px;
+}
+/* -----放大镜------ */
+.section .glass ul{
+    width:80px;
+    margin-right: 60px;
+}
+.section .glass ul li{
+    width: 68px;
+    height: 68px;
+    margin-bottom: 16px;
+    border: 1px solid #e6e6e6;
+}
+
+.glass .left li img{
+    width: 68px;
+    height: 68px;
+}
+
+/* -------放大镜---------- */
+.glass .scale {
+    position:relative;
+}
+.glass .scale .st{
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+.glass .scale .st img{
+    width:100%;
+}
+.glass .scale .df{
+    width:500px;
+    height:500px;
+    border: 1px solid #e6e6e6;/* 需要取消 */
+    position: absolute;
+    overflow:hidden;
+    visibility: hidden;
+    left:510px;
+    top:0;
+}
+.glass .scale .dt{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    z-index:999;
+}
+.glass .sf{
+    display:block;
+    position: absolute;
+    background:#000;
+    opacity:0.3;
+    filter:alpha(opacity=30);
+    cursor:move;
+    visibility: hidden;
+}
+
+/* ----产品文字详情介绍------- */
+.detail{
+    width:485px;
+}
+.detail h3{
+    font-size:30px;
+    margin-bottom: 20px;
+}
+.detail p{
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.detail .price{
+    padding: 20px 0;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #e6e6e6;
+}
+.detail .price b{
+    color: #d93732;
+    font-size: 24px;
+    font-weight: 700;
+}
+.detail .price i{
+    color: #666;
+    font-style:normal;
+}
+.detail dl{
+    padding: 20px 0;
+    font-size:12px;
+    color: #666;
+}
+.detail dl dt{
+    line-height: 34px;
+}
+.detail dl dd a{
+    display:block;
+    border: 2px solid #d93732;
+    height: 32px;
+    padding: 0 19px;
+    line-height: 32px;
+    margin-bottom: 10px;
+    color: #d93732;
+    margin-right: 8px;
+}
+/* ----立即购买---- */
+.detail .buy{
+    display: inline-block;
+    padding: 15px 180px;
+    color: #fff;
+    background: #d93732;
+    border-radius: 3px;
+    vertical-align: middle;
+    position: relative;
+}
+.detail .buy i{
+    display:none;
+    position: absolute;
+    width:30px;
+    height:30px;
+    top:0;
+    left:50%;
+    margin-left:-10px;
+}
+.detail .buy i img{
+    width:100%;
+}
+/* ------收藏------- */
+.detail .like{
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    background: #e2e2e2;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin-left:10px;
+}
+/* ------更多推荐-------- */
+.detail .like i{
+    display: inline-block;
+    width: 18px;
+    height: 16px;
+    background-position: -205px -16px;
+    margin: 14px 13px;
+}
+.detail .more{
+    border-top: 1px solid #e6e6e6;
+    margin-top: 30px;
+    padding-top:30px;
+}
+.detail .more a {
+    display: block;
+    color:#333;
+    font-size:12px;
+}
+.detail .more a i {
+    display:inline-block;
+    width: 16px;
+    height: 16px;
+    background-position: -224px -16px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.detail .more a span{
+    vertical-align: middle;
+}
+.detail .more a:hover{
+    color:#d93732;
+}
+.detail .more a:hover i{
+    background-position: -224px -32px;
+}
